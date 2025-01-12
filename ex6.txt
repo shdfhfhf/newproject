@@ -1,0 +1,52 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250112142158
+Username: DESKTOP-F49UMU0\hemke
+RunAs User: DESKTOP-F49UMU0\hemke
+Configuration Name: 
+Machine: DESKTOP-F49UMU0 (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 6780
+PSVersion: 5.1.22621.4391
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4391
+BuildVersion: 10.0.22621.4391
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ex6.txt
+PS C:\Users\hemke\myproject> git remote add origin https://github.com/shdfhfhf/newproject.git
+
+PS C:\Users\hemke\myproject> git branch -M main
+
+PS C:\Users\hemke\myproject> git push -u origin main
+
+PS C:\Users\hemke\myproject> git pull origin main
+
+PS C:\Users\hemke\myproject> git add README.md
+
+PS C:\Users\hemke\myproject> git commit -m "Resolve merge conflicts"
+
+PS C:\Users\hemke\myproject> git push -u origin main
+
+PS C:\Users\hemke\myproject> git add .
+
+PS C:\Users\hemke\myproject> git commit -m "Add untracked files"
+
+PS C:\Users\hemke\myproject> git pull origin main
+
+PS C:\Users\hemke\myproject> git pull origin main --allow-unrelated-histories
+
+PS C:\Users\hemke\myproject> git add README.md
+
+PS C:\Users\hemke\myproject> git commit -m "Resolve merge conflicts"
+
+PS C:\Users\hemke\myproject> git push -u origin main
+
+PS C:\Users\hemke\myproject> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250112143328
+**********************
