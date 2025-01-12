@@ -1,0 +1,54 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250112020124
+Username: DESKTOP-F49UMU0\hemke
+RunAs User: DESKTOP-F49UMU0\hemke
+Configuration Name: 
+Machine: DESKTOP-F49UMU0 (Microsoft Windows NT 10.0.22000.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 8964
+PSVersion: 5.1.22000.2538
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22000.2538
+BuildVersion: 10.0.22000.2538
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ex1.txt
+PS C:\Users\hemke\myproject> git config user.name "Vaish"
+
+PS C:\Users\hemke\myproject> git config --global user.name "Vaish"
+
+PS C:\Users\hemke\myproject> git config --global user.email "xox@yyy.com"
+
+PS C:\Users\hemke\myproject> git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=Vaish
+user.email=xox@yyy.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+user.name=Vaish
+PS C:\Users\hemke\myproject> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250112020507
+**********************

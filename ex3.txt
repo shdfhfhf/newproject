@@ -1,0 +1,31 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250112022406
+Username: DESKTOP-F49UMU0\hemke
+RunAs User: DESKTOP-F49UMU0\hemke
+Configuration Name: 
+Machine: DESKTOP-F49UMU0 (Microsoft Windows NT 10.0.22000.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 30596
+PSVersion: 5.1.22000.2538
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22000.2538
+BuildVersion: 10.0.22000.2538
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ex3.txt
+PS C:\Users\hemke\myproject> git branch 
+* feature-readme-update
+  master
+PS C:\Users\hemke\myproject> git checkout -b master
+fatal: a branch named 'master' already exists
+PS C:\Users\hemke\myproject> git checkout master
+Switched to branch 'master'
+PS C:\Users\hemke\myproject> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250112022612
+**********************

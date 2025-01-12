@@ -1,0 +1,46 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250112020604
+Username: DESKTOP-F49UMU0\hemke
+RunAs User: DESKTOP-F49UMU0\hemke
+Configuration Name: 
+Machine: DESKTOP-F49UMU0 (Microsoft Windows NT 10.0.22000.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 8964
+PSVersion: 5.1.22000.2538
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22000.2538
+BuildVersion: 10.0.22000.2538
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ex2.txt
+PS C:\Users\hemke\myproject> echo "# My First Repository" > README.md
+PS C:\Users\hemke\myproject> ParameterBinding(Out-File): name="InputObject"; value="# My First Repository"
+PS C:\Users\hemke\myproject> git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.md
+        ex1.txt
+        ex2.txt
+        index.html
+        text.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\hemke\myproject> git add README.md
+
+PS C:\Users\hemke\myproject> git commit -m "First commit: Add README"
+[master (root-commit) f5505aa] First commit: Add README
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+PS C:\Users\hemke\myproject> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250112020912
+**********************

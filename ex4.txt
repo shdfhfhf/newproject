@@ -1,0 +1,37 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250112022657
+Username: DESKTOP-F49UMU0\hemke
+RunAs User: DESKTOP-F49UMU0\hemke
+Configuration Name: 
+Machine: DESKTOP-F49UMU0 (Microsoft Windows NT 10.0.22000.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 30596
+PSVersion: 5.1.22000.2538
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22000.2538
+BuildVersion: 10.0.22000.2538
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ex4.txt
+PS C:\Users\hemke\myproject> echo "## This is a new section" >> README.md
+PS C:\Users\hemke\myproject> ParameterBinding(Out-File): name="InputObject"; value="## This is a new section"
+PS C:\Users\hemke\myproject> git add README.md
+
+PS C:\Users\hemke\myproject> git commit -m "Add new section to README"
+[master 2c09308] Add new section to README
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\hemke\myproject> git checkout main
+error: pathspec 'main' did not match any file(s) known to git
+PS C:\Users\hemke\myproject> git checkout -b main
+Switched to a new branch 'main'
+PS C:\Users\hemke\myproject> git merge master
+Already up to date.
+PS C:\Users\hemke\myproject> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250112023001
+**********************

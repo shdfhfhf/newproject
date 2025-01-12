@@ -1,0 +1,52 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250112135945
+Username: DESKTOP-F49UMU0\hemke
+RunAs User: DESKTOP-F49UMU0\hemke
+Configuration Name: 
+Machine: DESKTOP-F49UMU0 (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 6780
+PSVersion: 5.1.22621.4391
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4391
+BuildVersion: 10.0.22621.4391
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ex5.txt
+PS C:\Users\hemke\myproject> echo "## Main branch content" >> README.md
+PS C:\Users\hemke\myproject> ParameterBinding(Out-File): name="InputObject"; value="## Main branch content"
+PS C:\Users\hemke\myproject> git add README.md
+
+PS C:\Users\hemke\myproject> git commit -m "Add different content"
+[main 5e89ec8] Add different content
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\hemke\myproject> git checkout -b conflict-branch
+Switched to a new branch 'conflict-branch'
+PS C:\Users\hemke\myproject> echo "## Conflict branch content" >> README.md
+>> ParameterBinding(Out-File): name="InputObject"; value="## Conflict branch content"
+PS C:\Users\hemke\myproject> git add README.md
+
+PS C:\Users\hemke\myproject> git commit -m "Add different content"
+[conflict-branch cf6b632] Add different content
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\hemke\myproject> git checkout main
+
+PS C:\Users\hemke\myproject> git merge conflict-branch
+
+PS C:\Users\hemke\myproject> code Readme.md
+
+PS C:\Users\hemke\myproject> git add REAdME.md
+
+PS C:\Users\hemke\myproject> git commit -m "Resolve merge conflict"
+
+PS C:\Users\hemke\myproject> git commit -a
+
+PS C:\Users\hemke\myproject> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250112141749
+**********************
